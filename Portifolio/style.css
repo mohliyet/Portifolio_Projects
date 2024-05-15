@@ -55,3 +55,20 @@ nav ul li a:hover::after{
     width: 100%;
     transition: 0.5s;
 }
+
+.header-text{
+    margin-top: 20%;
+    font-size: 30px;
+    color: #fff;
+}
+
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px ;
+  
+}
+
+.header-text h1 span{
+    color: #ff004f
+  
+}
