@@ -162,15 +162,13 @@ nav ul li a:hover::after{
     grid-gap: 40px;
     margin-top: 50px;
 }
-.services-list div {
-    background: #262626;
-    padding: 10px;
-    font-size: 13px;
-    font-weight: 300;
-    border-radius: 10px;
-}
-
 .services-list div i {
     font-size: 30px;
-    color: #ff004f;
+    color: #007BFF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds a shadow to the text */
+    transition: transform 0.3s ease-in-out; /* Adds a smooth transition effect when transforming the icon */
+}
+
+.services-list div i:hover {
+    transform: scale(1.2); /* Scales the icon up when hovered */
 }
